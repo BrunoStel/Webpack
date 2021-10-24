@@ -2,14 +2,18 @@
   "name": "projeto1",
   "version": "1.0.0",
   "description": "",
-  "private":true,
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "BrunoS",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1"
   },
