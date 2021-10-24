@@ -1,0 +1,20 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "",
+  "private":true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BrunoS",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "kquery": "^2.0.0"
+  }
+}
