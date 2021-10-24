@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import './CSS/style.css';
+import './CSS/teste.scss'
 import imagem from './images/c1.jpg'
 import Botao from './components/botao/index.js'
 
